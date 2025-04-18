@@ -7,6 +7,19 @@
 
 ---
 
+## 📚 Table of Contents
+- [Goal](#-goal)
+- [Live Demo](#-live-demo)
+- [App Screenshots](#️-app-screenshots)
+- [Project Structure](#-project-structure)
+- [Tech Stack & Libraries](#-tech-stack--libraries)
+- [Setup Instructions](#️-setup-instructions)
+- [Authors](#-authors)
+- [License](#-license)
+- [Feedback](#-feedback)
+
+---
+
 ## 🎯 Goal
 This Data Science project aims to **predict whether a customer will default on their loan** based on financial history, personal attributes, and loan details. Accurately identifying high-risk borrowers can help financial institutions minimize losses and make more informed lending decisions.
 
@@ -14,7 +27,7 @@ This Data Science project aims to **predict whether a customer will default on t
 
 ## 🚀 Live Demo
 
-👉 Try the live app here: [Streamlit Web App](https://your-streamlit-app-url)
+👉 Try our live app here: [Streamlit Web App](https://loandpredict.streamlit.app/)
 
 ![Demo Screenshot](screenshots/demo_screenshot.png)  
 <sub>*Example screenshot of the app in action — replace with your own.*</sub>
@@ -137,8 +150,8 @@ y_pred = model.predict(X_test)
 ```py
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score 
 accuracy = accuracy_score(y_test, y_pred) 
-precision = precision_score(y_test, y_pred, pos_label='Yes') 
-recall = recall_score(y_test, y_pred, pos_label='Yes') 
+precision = precision_score(y_test, y_pred, pos_label='Yes')
+recall = recall_score(y_test, y_pred, pos_label='Yes')
 f1 = f1_score(y_test, y_pred, pos_label='Yes') 
 print(f'Accuracy: {accuracy:.2f}') 
 print(f'Precision: {precision:.2f}') 
@@ -168,8 +181,8 @@ To run the project locally:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/princenzmw/Load_Default_Prediction.git
-cd Load_Default_Prediction
+git clone https://github.com/princenzmw/Loan_Default_Prediction.git
+cd Loan_Default_Prediction
 ```
 
 2. **Create a virtual environment (optional but recommended):**
