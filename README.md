@@ -10,6 +10,7 @@
 ## 📚 Table of Contents
 - [Goal](#-goal)
 - [Live Demo](#-live-demo)
+- [How to Use the App](#-how-to-use-the-app)
 - [App Screenshots](#️-app-screenshots)
 - [Project Structure](#-project-structure)
 - [Tech Stack & Libraries](#-tech-stack--libraries)
@@ -34,18 +35,33 @@ This Data Science project aims to **predict whether a customer will default on t
 
 ---
 
+## 📂 How to Use the App
+
+1. **Upload your dataset:**  
+   Upload a CSV file — preferably the one provided in this repository named `model_training_dataset.csv`. The app uses it to train the machine learning model on the fly.
+
+2. **Enter loaner details:**  
+   Scroll down and fill in the fields with the customer’s financial and loan information.
+
+3. **Click `Predict`:**  
+   The model will instantly predict whether the customer is likely to default or not.
+
+> ⚠️ Make sure the CSV file you upload has the correct structure (same as the training dataset used during development).
+
+---
+
 ## 🖼️ App Screenshots
 
-### 📌 Home Page
+### 📌 Home Page & Data Upload Section
 ![Home Page](screenshots/image1.png)
 
-### 📌 Data Upload Section
+### 📌 Model Evaluation Metrics & Top 10 Most Important Features
 ![Data Upload](screenshots/image2.png)
 
-### 📌 Model Evaluation Metrics
+### 📌 Visualized Feature Importance Graph
 ![Metrics](screenshots/image3.png)
 
-### 📌 Feature Importance Graph
+### 📌 Fields for customer’s financial and loan information.
 ![Feature Importance](screenshots/image4.png)
 
 ### 📌 Prediction Interface
