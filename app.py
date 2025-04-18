@@ -1,4 +1,13 @@
 import streamlit as st
+
+# Setting the page configuration (Metadata)
+st.set_page_config(
+    page_title="Loan Default Risk Predictor",
+    page_icon="💰",
+    layout="centered",
+    initial_sidebar_state="auto",
+)
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -36,7 +45,7 @@ def train_model(X, y):
 # Main Streamlit app
 def main():
     st.title("Loan Status Prediction App")
-    st.write("Upload your loan dataset and predict loan status (0 = Non-Default, 1 = Default)")
+    st.write("Upload your loan dataset in our Smart Loan Risk Analyzer and predict loan status (0 = Non-Default, 1 = Default)")
 
     # File upload
     uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
@@ -97,7 +106,7 @@ def main():
             pred_proba = model.predict_proba(input_scaled)[0, 1]
             pred = 1 if pred_proba >= threshold else 0
             st.write(f"Prediction Probability (Class 1): {pred_proba:.2f}")
-            st.write(f"Predicted Loan Status: {'Default (1)' if pred == 1 else 'Non-Default (0)'}")
+            st.write(f"Predicted Loan Status: {'Default (1): 🔴 The model predicts that the borrower is likely to fail to repay the loan (Risky)' if pred == 1 else 'Non-Default (0): 🟢 he model predicts the borrower will successfully repay the loan (low risk)'}")
 
 if __name__ == "__main__":
     main()

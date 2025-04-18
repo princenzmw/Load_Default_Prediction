@@ -1,12 +1,52 @@
-# Predicting Loan Default (Banking)
+# 📊 Predicting Loan Default (Banking)
 
-## Goal
-The goal of this Data Science project is to predict whether a customer will default on their loan based on their financial history and loan type.
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 
-## Project Structure
-The project follows this structured 5-task plan:
+---
 
-### Task 1: Project Introduction and Data Collection
+## 🎯 Goal
+This Data Science project aims to **predict whether a customer will default on their loan** based on financial history, personal attributes, and loan details. Accurately identifying high-risk borrowers can help financial institutions minimize losses and make more informed lending decisions.
+
+---
+
+## 🚀 Live Demo
+
+👉 Try the live app here: [Streamlit Web App](https://your-streamlit-app-url)
+
+![Demo Screenshot](screenshots/demo_screenshot.png)  
+<sub>*Example screenshot of the app in action — replace with your own.*</sub>
+
+---
+
+## 🖼️ App Screenshots
+
+### 📌 Home Page
+![Home Page](screenshots/image1.png)
+
+### 📌 Data Upload Section
+![Data Upload](screenshots/image2.png)
+
+### 📌 Model Evaluation Metrics
+![Metrics](screenshots/image3.png)
+
+### 📌 Feature Importance Graph
+![Feature Importance](screenshots/image4.png)
+
+### 📌 Prediction Interface
+![Prediction UI](screenshots/image5.png)
+
+---
+
+## 📁 Project Structure
+
+The project is organized into five key tasks:
+
+---
+
+### ✅ Task 1: Project Introduction and Data Collection
 **Objective:** Understand the problem and obtain the dataset.
 
 - Define the problem statement and importance.
@@ -25,7 +65,7 @@ df.head()
 
 ---
 
-### Task 2: Data Exploration and Cleaning
+### 🔍 Task 2: Data Exploration and Cleaning
 **Objective:** Perform Exploratory Data Analysis (EDA) and clean the dataset.
 
 - Check for missing values, outliers, and incorrect data types.
@@ -46,7 +86,7 @@ plt.show()
 
 ---
 
-### Task 3: Feature Engineering and Selection
+### 🛠️ Task 3: Feature Engineering and Selection
 **Objective:** Create new features and remove irrelevant ones.
 
 - Create meaningful features (e.g., ‘total spending per year’).
@@ -65,7 +105,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 ---
 
-### Task 4: Model Building
+### 🤖 Task 4: Model Building
 **Objective:** Train a machine learning model.
 
 - Choose an appropriate model (Logistic Regression, Decision Trees, Random Forest, etc.).
@@ -85,7 +125,7 @@ y_pred = model.predict(X_test)
 
 ---
 
-### Task 5: Model Evaluation and Reporting
+### 📈 Task 5: Model Evaluation and Reporting
 **Objective:** Evaluate model performance and prepare a final report.
 
 - Evaluate the model using accuracy, precision, recall, F1-score, and confusion matrix.
@@ -106,10 +146,67 @@ print(f'Recall: {recall:.2f}')
 print(f'F1 Score: {f1:.2f}') 
 ```
 
-### AUTHORS:
+---
+
+## 🧪 Tech Stack & Libraries
+
+- Python 3.12
+- pandas
+- NumPy
+- scikit-learn
+- imbalanced-learn
+- matplotlib
+- seaborn
+- Streamlit
+
+---
+
+## ⚙️ Setup Instructions
+
+To run the project locally:
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/princenzmw/Load_Default_Prediction.git
+cd Load_Default_Prediction
+```
+
+2. **Create a virtual environment (optional but recommended):**
+
+```bash
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\\Scripts\\activate
+```
+
+3. **Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the Streamlit app:**
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 👥 AUTHORS:
 - [Siena](https://github.com/Siena-aa)
 - [Dorothy](https://github.com/Dorothy254)
 - [Withney](https://github.com/whitney-tech018)
 - [Ezekiel Niyomwungere](https://github.com/Ezekiel-Niyomwungere)
 - [Prince NZAMUWE](https://github.com/princenzmw)
 - [Kevin Maina](https://github.com/quatroze)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 💬 Feedback
+
+Feel free to open issues or submit pull requests. Contributions are welcome!
