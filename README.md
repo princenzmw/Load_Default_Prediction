@@ -1,6 +1,6 @@
 # 📊 Predicting Loan Default (Banking)
 
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
