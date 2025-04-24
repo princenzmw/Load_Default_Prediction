@@ -223,9 +223,9 @@ streamlit run app.py
 ---
 
 ## 👥 AUTHORS:
-- [Siena](https://github.com/Siena-aa)
-- [Dorothy](https://github.com/Dorothy254)
-- [Withney](https://github.com/whitney-tech018)
+- [Koech Chelangat](https://github.com/Siena-aa)
+- [Dorothy Wakio](https://github.com/Dorothy254)
+- [Whitney Jebor](https://github.com/whitney-tech018)
 - [Ezekiel Niyomwungere](https://github.com/Ezekiel-Niyomwungere)
 - [Prince NZAMUWE](https://github.com/princenzmw)
 - [Kevin Maina](https://github.com/quatroze)
